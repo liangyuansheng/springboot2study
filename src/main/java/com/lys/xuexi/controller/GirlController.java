@@ -1,6 +1,7 @@
 package com.lys.xuexi.controller;
 
-import com.lys.xuexi.Girl;
+
+import com.lys.xuexi.domain.Girl;
 import com.lys.xuexi.repository.GirlRepository;
 import com.lys.xuexi.service.GirlService;
 import org.springframework.beans.factory.annotation.Autowired;

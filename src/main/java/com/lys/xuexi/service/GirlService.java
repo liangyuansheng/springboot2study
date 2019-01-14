@@ -1,7 +1,6 @@
 package com.lys.xuexi.service;
 
-import com.lys.xuexi.Girl;
-
+import com.lys.xuexi.domain.Girl;
 import com.lys.xuexi.repository.GirlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.lys.xuexi;
+package com.lys.xuexi.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
