@@ -1,5 +1,8 @@
-package com.lys.xuexi;
+package com.lys.xuexi.service;
 
+import com.lys.xuexi.Girl;
+
+import com.lys.xuexi.repository.GirlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,7 +20,7 @@ public class GirlService {
         girlRepository.save(girlA);
         Girl girlB = new Girl();
         girlB.setAge(20);
-        girlB.setCupSize("C");
+        girlB.setCupSize("d");
         girlRepository.save(girlB);
     }
 }

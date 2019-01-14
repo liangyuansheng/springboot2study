@@ -1,4 +1,4 @@
-package com.lys.xuexi;
+package com.lys.xuexi.controller;
 
 import org.springframework.web.bind.annotation.*;
 
